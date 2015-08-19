@@ -1,0 +1,218 @@
+/**
+* This is my Parallax Scrolling Playground
+*
+* Author: Larry Babcock
+* http://www.larrybabcock.com
+*/
+body{
+margin:0;
+padding:0;
+background-color:#ebebeb;
+}
+
+a:link {
+	text-decoration: none;
+	color:#FFF;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color:#F2748B;
+}
+
+h3 {
+	color:#F2748B;
+	opacity:.6;
+}
+
+#header article {
+  background-color: #999999;
+  color: #EBEBEB;
+  font-size: 1em;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+#home {
+background: url(../images/katoomba_sisters_bg.jpg) 50% 0 no-repeat fixed;
+height: 1000px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+box-shadow: 0 0 50px rgba(0,0,0,0.8);
+padding: 0px 4%;
+}
+#about {
+background: url(../images/katoomba_bg.jpg) 50% 0 no-repeat fixed;
+height: 1000px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+box-shadow: 0 0 50px rgba(0,0,0,0.8);
+padding: 0px 4%;
+}
+/* Introduction */
+#home article { background: url("../images/katoomba_logo_optimized.png") no-repeat scroll center top transparent; 
+  height: 458px; 
+  position: absolute; 
+  text-indent: -9999px; 
+  top: 291px; 
+  width: 90%; 
+  background-size: contain;
+}
+#intro article {
+  color: #333333;
+  font-size: 1em;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+#intro article h1 {
+	font-size:2.9em;
+	color:#F2748B;
+	text-align: center;
+	padding-bottom:.1em;
+}
+#intro article h2 {
+	font-size:1.5em;
+	color:#666666;
+	text-align: center;
+	padding-bottom:1.5em;
+}
+#intro article p {
+	line-height:1.5em;
+	padding-bottom:1.5em;
+	font-size: 1.2em;
+}
+#about article { 
+  background: url("../images/soar_above.png") no-repeat scroll center top transparent; 
+  height: 458px; 
+  position: absolute; 
+  text-indent: -9999px; 
+  top: 291px; 
+  width: 94%;
+  background-size: contain;
+}
+#footer article {
+  background-color: #333;
+  color: #999999;
+  font-size: 1em;
+  height: 200px;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+
+/* Column Classes
+------------------------------------------------------------ */
+
+.five-sixths,
+.four-fifths,
+.four-sixths,
+.one-fifth,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fifths,
+.three-fourths,
+.three-sixths,
+.two-fifths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+	float: left;
+	margin: 0 0 20px;
+	padding-left: 3%;
+}
+
+.one-half,
+.three-sixths,
+.two-fourths {
+	width: 48%;
+}
+
+.one-third,
+.two-sixths {
+	width: 31%;
+}
+
+.four-sixths,
+.two-thirds {
+	width: 65%;
+}
+
+.one-fourth {
+	width: 22.5%;
+}
+
+.three-fourths {
+	width: 73.5%;
+}
+
+.one-fifth {
+	width: 17.4%;
+}
+
+.two-fifths {
+	width: 37.8%;
+}
+
+.three-fifths {
+	width: 58.2%;
+}
+
+.four-fifths {
+	width: 78.6%;
+}
+
+.one-sixth {
+	width: 14%;
+}
+
+.five-sixths {
+	width: 82%;
+}
+
+.first {
+	clear: both;
+	padding-left: 0;
+}
+
+/* Nav Header */
+#nav-header {
+  position: static;
+  top: 0;
+  width: 100%;
+  height: 47px;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 900;
+}
+
+#nav-header > span {
+  font-family: helvetica;
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  margin: 14px 10px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+
+#nav-header a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-header a.active {
+  font-weight: bold;
+}
+    
+/* Visited links under #nav-header */
+#nav-header a, a:visited {
+  text-decoration: none;
+}

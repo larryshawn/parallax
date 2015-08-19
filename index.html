@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<!-- Required to properly zoom the viewport on mobile. -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Title of the website -->
+<title>Basic Bootstrap Template</title>
+<!-- Link to dependent css files first -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<body>
+  <!-- Start page content -->
+  <!-- navigational header -->
+  <!-- Note that this goes before Bootstraps .container element -->
+  <div id="nav-header" data-type="background" data-speed="6" style="background-position: 50% 0px;">
+    <span></span><!--  This one is just a spacer span -->
+    <span>
+      <a href="#">Home</a>
+    </span>
+    <span>
+      <a href="#">About</a>
+    </span>
+    <span>
+      <a href="#">Contact</a>
+    </span>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <section id="home" data-type="background" data-speed="10">
+        <article>Katoomba, bush country at it's best</article>
+      </section>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <section id="intro" data-type="background" data-speed="4" style="background-position: 50% 0px;">
+          <article>
+            <h1>Welcome to the jungle</h1> 
+            <h2>As a matter of fact, <br/>we DO "<i>got fun 'n games</i>"</h2>
+            <p>Here you will find a wide array of fun as you see the 7 sisters fading away as they scroll up off the page. It's sad to see them go but check out what's coming ahead.</p>
+            <p>What we have down there is a blurred out picture of the waterfalls at Katoomba on a rainy day. Don't you wish you were there?</p>
+            <hr />
+            <br />
+            <h2>Don't forget to ride the tram</h2>
+            <p>It's an experience you won't soon forget. The views are amazing and the wildlife abundant. Wach out for those "other" tourists, You'll see plent of them there.</p>
+            <p>The climate is enjoyable too. If you like to stay about 10 degrees cooler than the coast, this is the place for you. That is measured in fahrenheit. If you need help translating that is about 6 degrees cooler in the celsius standard.</p>
+          </article>
+        </section>
+      </div>
+    </div>
+    
+    <div class="row">
+      <section id="about" data-type="background" data-speed="8" style="background-position: 50% 0px;">
+        <article>Simple Parallax Scroll</article>
+      </section>
+    </div>
+
+    <div class="row">
+      <section id="footer">
+        <article>
+          <div class="col-xs-3">
+            <h3>Shopping</h3>
+            <hr />
+            Hiking
+            <br />Souveneirs
+            <br />UGG Boots
+            <br />Jewelry
+            <br />Snacks
+          </div>
+          <div class="col-xs-3"><h3>Activities</h3>
+            <hr />
+            Hiking
+            <br />Tram
+            <br />Cable car
+            <br />Dining
+          </div>
+          <div class="col-xs-3"><h3>Share</h3>
+            <hr />
+            <!--<img src="images/share.png" />
+            <br />-->
+            Facebook
+            <br />
+            Twitter
+            <br />
+            Google +
+            <br />Pinterest
+          </div>
+          <div class="col-xs-3"><h3>Corporate</h3>
+            <hr />
+            About
+            <br />
+            Careers
+            <br />
+            Contact
+          </div>
+        </article>
+      </section>
+    </div>
+  </div>
+  <!-- end container -->
+
+  <!-- Javacript calls go down here so they don't slow down the markup while loading. Javascript files load synchronously so it will stop everything else below it from loading until the loading is complete -->
+  <!-- Link to dependent js files first -->
+
+  <!-- jQuery library call -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Mustache library call -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.2/mustache.min.js"></script>
+  <!-- My own .js files listed dependencies first -->
+  <script src="js/script.js"></script>
+</body>
+</html>
+
